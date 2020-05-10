@@ -10,3 +10,5 @@ I have found that by simply not paying enough attention to my code structure in 
 Bootstrap has an invaluable library of components that can be copied and edited to suit your purpose in your own code and the Challenge to add your own Table was a brilliant way to get me to start looking more in-depth into the Bootstrap database.
 
 Another hilarious lesson was learning my laptop screen would be considered a Medium size by HTML as I was just about tearing my hair out trying to figure out why some of my code wasnt working no matter i was viewing at fullscreen!
+
+The styling options available to you with Bootstrap are immense and definitely seem to be a faster route than using just CSS.
