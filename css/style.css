@@ -2,12 +2,25 @@ body {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.alert-container {}
+.alert-container .col-12 {	
+    padding-left: 0;	
+    padding-right: 0;	
+}	
+
+.site-wide-alert {	
+    color: #544600;	
+    background-color: #eec802;	
+    border-color: #eec802;	
+    padding: 5px 15px;	
+    margin-bottom: 0;	
+    border: 1px solid transparent;	
+    border-radius: 0;	
+}
 
 .callout-container {
     height: 100vh;
 
-    background: url("../images/whiskey2-bg.jpg") no-repeat bottom right fixed; 
+    background: url("../images/whiskey-bg.jpg") no-repeat bottom right fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -29,27 +42,35 @@ body {
     background-color: rgba(0,0,0,0.3)
 }
 
-.quotes-container {}
 
-.features-container {}
+/* Navbar */
 
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+    z-index: 1;
+}
 
-/*Block Dividers*/
-
-.block-divider {
-    width: 575px;
-    height: 3px;
+.navbar {
+    margin-bottom: 0;
     border: 0;
-    
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
 }
 
-.block-divider--yellow {
-    background-color: #efc11c;
-}
+.navbar .navbar-toggler {	
+    border: 0;	
+}	
+.navbar .navbar-brand {	
+    font-weight: bold;	
+}	
+.navbar .navbar-nav a {	
+    font-weight: bold;	
+}	
 
-.block-divider--short {
-    width: 275px;
-}
 
 /*Jumbotron*/
 
@@ -57,7 +78,7 @@ body {
     background-color: transparent;
 }
 
-.jumbotron-header {
+.jumbotron-h1 {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
@@ -65,6 +86,7 @@ body {
 .jumbotron .lead {
     color: #feb501;
     font-weight: bold;
+    margin: 25px 0;
 }
 
 .jumbotron small {
@@ -73,7 +95,25 @@ body {
     color: #d0d0d0;
 }
 
+
+/*Block Dividers*/
+
+.block-divider {
+    width: 575px;
+    height: 3px;
+    border: 0;
+    z-index: 1;
+}
+.block-divider--yellow {
+    background-color: #feb501;
+}
+.block-divider--short {
+    width: 275px;
+}
+
+
 /* Button */
+
 
 .btn--cta {
     font-weight: bold;
