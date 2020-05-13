@@ -33,6 +33,22 @@ body {
     position: relative;
 }
 
+.callout-container2 {
+    height: 100vh;
+    color: #ffffff;
+    background: url("../images/whiskey2-bg.jpg") no-repeat bottom right fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
 .opaque-overlay {
     position: absolute;
     top: 0;
