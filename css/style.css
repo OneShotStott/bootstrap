@@ -41,11 +41,11 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-weight: bold;
-    display: flex;
+    font-weight: bold;   
     align-items: center;
     justify-content: center;
     position: relative;
+    text-align: center;
 }
 
 
@@ -98,6 +98,7 @@ body {
     color: white;
     font-weight: bold;
     margin-bottom: 30px;
+    padding-top: 75px;
 }
 .jumbotron .lead {
     color: #feb501;
@@ -115,16 +116,17 @@ body {
 /*Block Dividers*/
 
 .block-divider {
-    width: 575px;
+    width: 100%;
     height: 3px;
     border: 0;
     z-index: 1;
 }
+
 .block-divider--yellow {
     background-color: #feb501;
 }
 .block-divider--short {
-    width: 275px;
+    width: 50%;
 }
 
 
@@ -153,4 +155,5 @@ body {
 
 .whiskeyofthemonth {
     text-align: center;
+    padding-top: 125px;
 }
